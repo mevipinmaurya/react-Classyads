@@ -1,0 +1,9 @@
+.color-cyan{
+    color: var(--cyan);
+    font-weight: 400;
+    font-size: 33px;
+}
+.correct-icon{
+    color: var(--cyan);
+    margin-right: 10px;
+}

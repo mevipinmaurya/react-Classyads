@@ -1,0 +1,6 @@
+.contact-a a{
+    color: var(--cyan);
+}
+.contact-a a:hover{
+    color: #1ccab3;
+}

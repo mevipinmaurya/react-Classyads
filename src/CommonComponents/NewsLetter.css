@@ -1,0 +1,49 @@
+.newsletter{
+    background-color: var(--cyan);
+}
+.newsletter-text h6{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.newsletter-text p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.newsletter-input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    background-color: transparent;
+    border-radius: 0% !important;
+}
+.newsletter-input:focus{
+    box-shadow: inset 0 -1px 0 #ddd;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.newsletter-input::placeholder{
+    font-style: italic;
+    color: white!important;
+}
+
+.newsletter-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 0%!important;
+    cursor: pointer;
+}
+.newsletter-btn:hover{
+    color: white;
+    background-color: #000;
+    transition: 0.3s;
+}
+
+.newsletter-btn:focus{
+    box-shadow: inset 0 -1px 0 #ddd;
+    outline: none;
+}

@@ -1,0 +1,103 @@
+.trending-row{
+    position: relative;
+}
+.trending-row h2{
+    color: var(--cyan);
+    font-weight: 700 !important;
+}
+.trending-border-primary::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 15px;
+    background-color: var(--cyan);
+    width: 80px;
+    height: 4px;
+    /* transform: translateX(50%); */
+}
+
+.listing {
+    box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 7px;
+    position: relative;
+    background: #fff;
+}
+
+.listing .img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-right: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    flex: 0 0 230px;
+}
+
+.listing .lh-content {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.listing .category {
+    font-size: 11px;
+    display: inline-block;
+    padding: 5px 20px;
+    background: #e9ecef;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.listing .lh-content .bookmark {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.03);
+    transition: .3s all ease;
+    font-size: 16px;
+}
+.listing .lh-content .bookmark span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.listing h3 {
+    font-size: 16px !important;
+}
+.listing address, .listing .review {
+    font-size: 13px;
+}
+.text-warning{
+    color: #f89d13;
+}
+
+.lh-content .bookmark:hover{
+    background-color: rgb(243, 37, 37);
+}
+.lh-content .bookmark:hover .heart-icon{
+    color: white;
+}
+a span .heart-icon{
+    color: var(--cyan);
+}
+
+
+@media (max-width:768px) {
+    .trending-vertical{
+        display: block;
+    }
+    .listing.trending-vertical .img {
+        height: 150px;
+        margin-right: 0;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0;
+    }
+}

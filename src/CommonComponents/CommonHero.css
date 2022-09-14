@@ -1,0 +1,18 @@
+.site-block h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.site-block p{
+    color: rgba(255,255,255,.5);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 968px) {
+    .site-block h1{
+        font-size: 34px;
+    }
+    .site-block{
+        margin-top: 100px;
+    }
+}

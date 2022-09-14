@@ -1,0 +1,107 @@
+.product-row{
+    position: relative;
+}
+.product-row h2{
+    color: var(--cyan);
+    font-weight: 700 !important;
+}
+.product-row p{
+    color : rgba(0, 0, 0, 0.5);
+}
+.border-primary::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    background-color: var(--cyan);
+    width: 80px;
+    height: 4px;
+    transform: translateX(-50%);
+}
+
+.listing-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.listing-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: .3s all ease;
+}
+
+.listing-item .listing-item-content {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+    width: 100%;
+}
+
+.listing-item .bookmark {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    transition: .3s all ease;
+}
+
+.listing-item .bookmark span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.listing-item .bookmark:hover{
+    background-color: rgb(243, 37, 37);
+}
+.listing-item .bookmark:hover .heart-icon{
+    color: white;
+}
+a .heart-icon{
+    color: white;
+}
+
+.listing-item .listing-item-content .category {
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 20px;
+    background: #30e3ca;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.listing-item .listing-item-content h2, .listing-item .listing-item-content h2 a {
+    color: #fff;
+    line-height: 1.2rem;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.listing-item .listing-item-content .address {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+.listing-item:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.listing-item:hover img{
+    transform: scale(1.08);
+}

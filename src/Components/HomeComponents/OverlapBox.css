@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+}
+
+.overlapBox-section {
+    position: relative;
+    content: "";
+    top: -35px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.popular-category span {
+    display: block;
+}
+
+.popular-category .flaticon {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.popular-category .caption {
+    color: #666;
+    transition: .1s all ease;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.popular-category .number {
+    padding: 2px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    background: #e9ecef;
+    color: #000;
+    font-size: 14px;
+    transition: .1s all ease;
+}
+
+.overlap-row {
+    background-color: #fff;
+}
+.overlap-col{
+    transition: 0.3s !important;
+}
+.overlap-col:hover {
+    background-color: var(--cyan);
+    transition: all 0.3s ease;
+    transform: translateY(-15px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.overlap-col:hover .popular-category .number{
+    background: rgb(27, 197, 173);
+    color: white;
+}
+.overlap-col:hover .popular-category .caption{
+    color: white;
+}
+
+
+
+
+
+.owl-nav{
+    text-align: center;
+    margin: 0 !important;
+}
+.owl-prev span{
+    font-size: 60px!important;
+    color: #495057!important;
+    font-weight: 400!important;
+    margin: 0;
+    margin: 0 20px;
+}
+.owl-next span{
+    font-size: 60px!important;
+    color: #495057!important;
+    font-weight: 400!important;
+    margin: 0 20px;
+}
+
+.owl-prev span:hover,
+.owl-next span:hover{
+    color: var(--cyan)!important;
+}
+
+
+
+
+/* @media (max-width: 980px) {
+    .overlapBox-section {
+        top: -20px;
+    }
+} */

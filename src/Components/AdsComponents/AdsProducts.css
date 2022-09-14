@@ -1,0 +1,156 @@
+.site-section{
+    margin: 5rem 0;
+}
+.listing {
+    box-shadow: 0 2px 20px -2px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    border-radius: 7px;
+    position: relative;
+    background: #fff;
+}
+.vertical {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: block!important;
+}
+
+.listing.vertical .img {
+    height: 150px;
+    margin-right: 0;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 0;
+}
+
+.listing .lh-content {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.listing .category {
+    font-size: 11px;
+    display: inline-block;
+    padding: 5px 20px;
+    background: #e9ecef;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.listing .lh-content .bookmark {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.03);
+    transition: .3s all ease;
+    font-size: 16px;
+}
+.listing .lh-content .bookmark span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.listing h3 a{
+    font-size: 16px !important;
+    color: var(--cyan);
+}
+.listing address, .listing .review {
+    font-size: 13px;
+}
+.text-warning{
+    color: #f89d13;
+}
+
+.lh-content .bookmark:hover{
+    background-color: rgb(243, 37, 37);
+}
+.lh-content .bookmark:hover .heart-icon{
+    color: white;
+}
+a span .heart-icon{
+    color: var(--cyan);
+}
+
+
+.ads-input{
+    padding: 10px;
+    border-radius: 2px;
+}
+.ads-input:focus{
+    box-shadow: inset 0 -1px 0 #ddd;
+    border: 1px solid var(--cyan);
+}
+
+.icon-location-wrap{
+    position: relative;
+}
+.icon-location{
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.range-section{
+    border: none;
+}
+p {
+    display: block;
+    color: #585858;
+}
+.checkbox-grey{
+    color: #585858;
+}
+.checkbox-grey input:focus{
+    box-shadow: inset 0 -1px 0 #ddd;
+    outline: none;
+    border: none;
+    border: 1px solid #585858;
+}
+
+.checkbox-grey input{
+    border: 1px solid #585858;
+    margin-right: 10px;
+}
+
+.color-grey{
+    color: #585858;
+}
+.h3-font{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.line-height{
+    line-height: 1.7rem;
+}
+
+.custom-pagination span {
+    background: #e6e6e6!important;
+    color: #000!important;
+}
+
+.custom-pagination span,
+.custom-pagination a{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #30e3ca;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 5px;
+}
+.custom-pagination .more-page{
+    background: none!important;
+}
+
+

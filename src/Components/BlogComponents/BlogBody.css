@@ -1,0 +1,12 @@
+p{
+    color: rgb(102, 101, 101);
+    line-height: 1.6rem;
+}
+.li-cyan a{
+    color: var(--cyan);
+}
+.text-black{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(31, 30, 30)!important;
+}

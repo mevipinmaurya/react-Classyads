@@ -1,0 +1,21 @@
+.testimonial-row{
+    position: relative;
+}
+.testimonial-row h2{
+    color: var(--cyan);
+    font-weight: 700 !important;
+}
+.testimonial-row p{
+    color : rgba(0, 0, 0, 0.5);
+}
+.testimonial-border-primary::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    background-color: var(--cyan);
+    width: 80px;
+    height: 4px;
+    transform: translateX(-50%);
+}
+
